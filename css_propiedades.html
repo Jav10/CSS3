@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta name="description" content="curso Desarrollo Web">
+		<meta name="keywords" content="HTML5,CSS3,JavaScript,PHP">
+		<meta name="author" content="Jav Hernández">
+		<link rel="stylesheet" href="#">
+		<script src="#"></script>
+		<style>
+			*{
+				color: black;
+				cursor: url(cursor.gif),no-drop;
+			}
+			body{
+				background-color: deepskyblue;
+			}
+			p{
+				font-family: "Times New Roman",Georgia,Serif;
+				font-size: x-large;
+				font-style: italic;
+				font-weight: bold;
+				color: red;
+				text-align: right;
+				text-decoration: line-through;
+				text-shadow: 5px 5px 4px black;
+				text-transform: lowercase;
+				padding: 10px;
+				border: 5px solid orange;
+			}
+			article{
+				border: 5px dotted pink;
+				width: 90px;
+				height: 90px;
+			}
+			aside{
+				width: 800px;
+				height: 500px;
+				background-image: url("pig.png");
+				background-repeat: repeat-x repeat-y;
+				<!-- background-repeat: repeat-x; -->
+				
+			}
+			#lista1{
+				font-size: 50px;
+				list-style-type: square;
+			}
+			#lista2{
+				margin-left: 200px;
+				list-style-image: url("pig.png");
+			}
+			a{
+				font-size: 30px;
+			}
+			a:link{
+				color: orange;
+				text-decoration: line-through;
+			}
+			a:visited{
+				color: pink;
+				text-decoration: none;
+			}
+			a:active{
+				color: red;
+			}
+			a:hover{
+				color: green;
+				text-decoration-style: wavy;
+				text-decoration: underline;
+			}
+			.absolute {
+				position: absolute;
+				top: 1700px;
+			   left: 50px;
+			}
+			h2 strong {
+				position: relative;
+				top: 150px;
+			   left: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Propiedades CSS</h1>
+		<section>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et risus nibh. Sed vel commodo turpis, sit amet convallis tellus. Nam congue enim vitae eros tempus pharetra. Donec ut magna ullamcorper arcu interdum sodales at in nisl. Aenean congue odio ac neque volutpat, sit amet hendrerit ex tristique. Praesent non nisi vel sem pellentesque aliquet. Proin sollicitudin, mauris eget dictum porta, neque felis volutpat ex, et imperdiet nisi lacus ac mauris. Integer convallis iaculis ante non consectetur. Sed eu vulputate enim. Integer congue ultrices ligula. Aenean bibendum tellus ut metus tempor, a placerat sapien tincidunt. Ut augue lectus, tempor a est ac, blandit hendrerit dui. Sed efficitur ligula augue, non tincidunt nisl venenatis nec. Suspendisse potenti. Sed iaculis, urna vitae ultrices fringilla, nisi sapien dapibus dolor, non pulvinar tellus tellus ac magna. 
+			</p>
+		</section>
+		<article>
+		
+		</article>
+		<aside>
+		
+		</aside>
+		<h1>LISTAS</h1>
+		<ul id="lista1">
+			<li>uno</li>
+			<li>dos</li>
+		</ul>
+		<ul id="lista2">
+			<li>uno</li>
+			<li>dos</li>
+		</ul>
+		
+		<h1>LINKS</h1>
+		<a href="#">CLICK!!</a>
+		
+		<h2>Posición absoluta y relativa</h2>
+
+		<h2 class="absolute">Este texto tiene position: absolute; y no guarda el espacio</h2>
+
+		<h2 class="relative">Este texto tiene <strong>position: relative;</strong> y guarda la posición de la etiqueta</h2>
+	</body>
+</html>
