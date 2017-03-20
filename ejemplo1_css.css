@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+nav{
+	margin: auto;
+	width: 450px;
+	height: 30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	/*Extra*/
+	background-color: black;
+	border-radius: 10px;
+}
+ul{
+	list-style: none;
+}
+/*Este es extra: margin left*/
+#nav{
+	margin-left: 30px;;
+}
+#nav > li{
+	float: left;
+}
+#nav a{
+	background-color: black;
+	color: white;
+	width: 77px;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px 10px;
+	display: block;
+}
+#nav li a:hover{
+	background-color: gray;
+}
+#nav li ul{
+	display:none;
+	position: absolute;
+	max-width: 89px;
+}
+#nav li:hover > ul{
+	display: block;
+}
+#nav li ul li {
+	position:relative;
+}
+#nav li ul li ul {
+	right:-97px;
+	top:0px;
+}
+/* Hasta aquí la práctica */
