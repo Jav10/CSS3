@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta name="description" content="curso Desarrollo Web">
+		<meta name="keywords" content="HTML5,CSS3,JavaScript,PHP">
+		<meta name="author" content="Jav Hernández">
+		<link rel="stylesheet" href="#">
+		<script src="#"></script>
+		<style>
+			
+			article{
+				width: 200px;
+				height: 200px;
+				border: 2px solid blue;
+				position: absolute;
+				right: 600px;
+				bottom: 250px;
+				transition: width 2s, height 2s, transform 2s;
+				
+			}
+			article:hover {
+				width: 300px;
+				height: 300px;
+				transform:rotate(360deg) translate(100px,50px) skew(30deg) scale(2,2);
+				 
+			}
+		</style>
+	</head>
+	<body>
+		<article>
+			<p>Algun texto para aplicar transición</p>
+		</article>
+	</body>
+</html>
